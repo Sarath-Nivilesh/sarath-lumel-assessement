@@ -20,7 +20,7 @@ export default function RowComponent({
   const newValue = node.value + increaseAmount;
 
   if (node.children) {
-    updateValue(node.id, newValue, "distribute"); 
+    updateValue(node.id, newValue, "distributetochild"); 
   } else {
     updateValue(node.id, newValue, "value");
   }
@@ -32,7 +32,7 @@ export default function RowComponent({
     const val = parseFloat(input);
     if (!isNaN(val)) {
       if (node.children) {
-        updateValue(node.id, val, "distribute");
+        updateValue(node.id, val, "distributetochild");
       } else {
         updateValue(node.id, val, "value");
       }

@@ -12,7 +12,7 @@ export default function App() {
       if (node.id === id) {
         if (type === "value") {
           node.value = newValue;
-        } else if (type === "distribute") {
+        } else if (type === "distributetochild") {
           distributeValue(node, newValue);
         }
       }
