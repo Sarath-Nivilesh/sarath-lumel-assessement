@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sarath-Nivilesh/sarath-lumel-assessement/static/css/main.e6c13ad2.css",
+    "main.js": "/Sarath-Nivilesh/sarath-lumel-assessement/static/js/main.eba880e6.js",
+    "index.html": "/Sarath-Nivilesh/sarath-lumel-assessement/index.html",
+    "main.e6c13ad2.css.map": "/Sarath-Nivilesh/sarath-lumel-assessement/static/css/main.e6c13ad2.css.map",
+    "main.eba880e6.js.map": "/Sarath-Nivilesh/sarath-lumel-assessement/static/js/main.eba880e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.eba880e6.js"
+  ]
+}
