@@ -28,7 +28,6 @@ export default function RowComponent({
   setInput("");
 };
 
-
   const handleApplyVal = () => {
     const val = parseFloat(input);
     if (!isNaN(val)) {
